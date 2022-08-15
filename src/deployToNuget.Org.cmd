@@ -1,7 +1,5 @@
 del *.nupkg
 
-msbuild /p:Configuration=Release
-
 REM Use dotnet for packaing now
 REM NuGet.exe pack Nehta.Xsp\Nehta.Xsp.csproj -Properties Configuration=Release
 dotnet pack .\Nehta.Xsp\Nehta.Xsp.csproj -c Release -o .
