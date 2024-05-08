@@ -1,33 +1,25 @@
-This is the source code for the Example Technical Implementation of the
-'E-Health XML Secured Payload Profile' technical specification using Microsoft .NET.
+# Introduction
+This is the source code for the Example Technical Implementation of the 'E-Health XML Secured Payload Profile' technical specification using Microsoft .NET.
 
+# Project
+This is a software library that provides an example implementation of how to use this XML Secured Payload library using .NET.
 
-Installation
-============
+# Setup
+- To build the distributable package, Visual Studio must be installed.
+- Start up XmlSecuredPayload.sln
 
-To build and test the distributable package, the following must be installed:
+# Solution
+The solution consists of two projects:
 
-Visual Studio 2015
-------------------
-1. Install Visual Studio 2015
+Nehta.Xsp: The 'Nehta.Xsp' project contains the implementation of the 'E-Health XML Secured Payload Profiles' technical specification.
 
-Building and running the code
-=============================
+Nehta.Xsp.Sample: The 'Nehta.Xsp.Sample' project contains sample code on how to use the implementation.
 
-The solution can be built using 'ctrl-shift-b'.
+# Building and using the library
+The solution can be built using 'F6'. 
 
-The sample can be run by setting the 'Nehta.Xsp.Sample' project as the start-up 
-  project and pressing 'F5'. Ensure the keys have been installed first.
+# Library Usage
+Documentation can be found in the sample project.
 
-
-Solution
-========
-
-The solution consists of three projects:
-
-Nehta.Xsp: The 'Nehta.Xsp' project contains the implementation of the
-  'E-Health XML Secured Payload Profiles' technical specification.
-
-Nehta.Xsp.Sample: The 'Nehta.Xsp.Sample' project contains sample 
-  code on how to use the implementation.
-
+# Licensing
+See [LICENSE](LICENSE.txt) file.
